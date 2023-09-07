@@ -12,6 +12,19 @@ import MidjourneyOperations from '@components/MidjourneyOperations';
 import { hasUpscaleOrVariation } from '@utils/midjourney';
 import './index.css';
 import { copyToClipboard } from '@utils';
+import {InfluxDBClient, Point} from '@influxdata/influxdb3-client'
+
+const token = process.env.INFLUXDB_TOKEN
+
+async function main() {
+    const client = new InfluxDBClient({host: 'https://us-central1-1.gcp.cloud2.influxdata.com', token: token})
+
+    // following code goes here
+
+    client.close()
+}
+
+main()
 
 const { CheckableTag } = Tag;
 
