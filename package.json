@@ -67,7 +67,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.4",
-    "prettier-plugin-astro": "^0.8.0",
+    "prettier-plugin-astro": "^0.13.0",
     "punycode": "^2.3.0",
     "simple-git-hooks": "^2.8.1",
     "tailwindcss": "^3.2.7",
