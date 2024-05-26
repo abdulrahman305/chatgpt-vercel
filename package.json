@@ -47,7 +47,7 @@
     "solid-js": "^1.6.15"
   },
   "devDependencies": {
-    "@esbuild/darwin-arm64": "^0.16.17",
+    "@esbuild/darwin-arm64": "^0.20.2",
     "@tailwindcss/typography": "^0.5.9",
     "@types/lodash-es": "^4.17.7",
     "@types/node": "^18.15.3",
